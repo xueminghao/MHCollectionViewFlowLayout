@@ -1,0 +1,6 @@
+framework module MHCollectionViewFlowLayout {
+  umbrella header "MHCollectionViewFlowLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

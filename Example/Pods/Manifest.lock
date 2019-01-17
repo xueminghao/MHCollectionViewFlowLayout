@@ -1,0 +1,16 @@
+PODS:
+  - MHCollectionViewFlowLayout (0.1.0)
+
+DEPENDENCIES:
+  - MHCollectionViewFlowLayout (from `../`)
+
+EXTERNAL SOURCES:
+  MHCollectionViewFlowLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MHCollectionViewFlowLayout: 36f48daec6353b52b9c81aeb01762f76f5dfe5f1
+
+PODFILE CHECKSUM: f26b66e3b57ead8d797bf213a25d82199059b15b
+
+COCOAPODS: 1.5.3
