@@ -9,6 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ 布局类型。
+
+ - MHCollectionViewFlowLayoutTypeFlow: 流式布局。不同于UICollectionViewFlowLayout，元素之间、行之间的距离不会被动态调整。
+ - MHCollectionViewFlowLayoutTypeWaterFall: 瀑布流布局。
+ */
 typedef NS_ENUM(NSUInteger, MHCollectionViewFlowLayoutType) {
     MHCollectionViewFlowLayoutTypeFlow,
     MHCollectionViewFlowLayoutTypeWaterFall,
@@ -24,6 +30,9 @@ typedef NS_ENUM(NSUInteger, MHCollectionViewFlowLayoutType) {
 
 @end
 
+/**
+ MHCollectionViewFlowLayout支持按section选择布局方式
+ */
 @interface MHCollectionViewFlowLayout : UICollectionViewLayout
 
 @end
