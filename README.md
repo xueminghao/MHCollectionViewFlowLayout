@@ -17,7 +17,7 @@ MHCollectionViewFlowLayout is available through [CocoaPods](https://cocoapods.or
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MHCollectionViewFlowLayout'
+pod 'MHCollectionViewFlowLayout', :git => 'git@github.com:Minghao2017/MHCollectionViewFlowLayout.git'
 ```
 
 ## Author
