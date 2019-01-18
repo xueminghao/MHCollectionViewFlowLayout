@@ -22,6 +22,11 @@ typedef NS_ENUM(NSUInteger, MHCollectionViewFlowLayoutType) {
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout lineSpacingForSectionAtIndex:(NSInteger)section;
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout interitemSpacingForSectionAtIndex:(NSInteger)section;
 ```
+
+## Attention
+
+For ```MHCollectionViewFlowLayoutTypeWaterFall``` layout, the number of columns and the width of each column is decided by the ```itemSize``` you returned by ```- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath;``` for the first row. Once the first row is fullfilled, the subsequent items' width you returned from the delegate method is ignored.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
